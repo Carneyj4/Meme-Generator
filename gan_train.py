@@ -10,7 +10,7 @@ from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_a
 
 image_list = []
 i = 0
-folder = r'C:\Users\Allonsy\Pictures\npy_files'
+folder = input('What is the full file path to your npy files?')
 _glob =  [f for f in os.listdir(folder) if os.path.isfile(os.path.join(folder, f))]
 print(f'Total number of NPY files: {len(_glob)}')
 image_width = 28

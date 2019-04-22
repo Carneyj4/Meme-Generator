@@ -23,8 +23,8 @@ from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_a
 
 '''
 def main():
-    folder = r'C:\Users\Allonsy\Pictures\isischan'
-    np_folder = r'C:\Users\Allonsy\Pictures\npy_files'
+    folder = input('What is the full file path to your image files?')
+    np_folder = input('Put the full file path for where you want your np files to be saved')
     _glob =  [f for f in os.listdir(folder) if os.path.isfile(os.path.join(folder, f))]
 
     image_width = 28
