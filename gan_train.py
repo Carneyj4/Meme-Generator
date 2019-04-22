@@ -8,6 +8,11 @@ import glob
 import os
 from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
 
+'''
+This gan_train was from the UCLA ACM AI stuff, where I tried to mess with there files.
+I left the comments and stuff in this one, with some changes, the main file I run is gan_train_def.py
+'''
+
 image_list = []
 i = 0
 folder = input('What is the full file path to your npy files?')

@@ -11,15 +11,20 @@ from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_a
 
 '''
 @author
+        Zannettou, Savvas [zsavvas90@gmail.com]
         Joshua Carney  [Carneyj4@uab.edu]
         Jeremy Blackburn [blackburn@uab.edu]
+
 @Topic
         Meme-Generator
         A GAN that trains on given images and will generate 
         a new meme, based off the inputted memes. 
 @Citations
-        NVIDIA: 
-        UCLAACM:
+        NVIDIA: https://arxiv.org/pdf/1812.04948.pdf
+        UCLAACM: https://github.com/uclaacmai/Generative-Adversarial-Network-Tutorial.git
+
+This file is for converting pre-existing images into npy binary files to be used in a dataset
+for the GAN, typically this will be the first of the programs that is ran.
 
 '''
 def main():

@@ -9,6 +9,11 @@ import os
 from keras.preprocessing.image import ImageDataGenerator, array_to_img, img_to_array, load_img
 
 
+'''
+This is the main file I run, it's a spinoff of the gan_train one with none of their comments.
+'''
+
+
 image_list = []
 i = 0
 folder = input('What is the full file path to your npy files?')
